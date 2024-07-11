@@ -1,5 +1,5 @@
 {
-  "name": "@ahtesham/react-native-photo-editor-minimal",
+  "name": "@ahtesham2000/react-native-photo-editor-minimal",
   "version": "1.1.6",
   "description": "🌄 Image editor using native modules for iOS and Android",
   "main": "lib/commonjs/index",
@@ -36,13 +36,16 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/baronha/react-native-photo-editor",
-  "author": "Baron Ha. <baronn.ha@gmail.com> (https://github.com/baronha)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahtesham-clcbws/react-native-photo-editor-minimal.git"
+  },
+  "author": "Baron Ha. <baronn.ha@gmail.com> (https://github.com/ahtesham2000)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/baronha/react-native-photo-editor/issues"
+    "url": "https://github.com/ahtesham-clcbws/react-native-photo-editor-minimal/issues"
   },
-  "homepage": "https://github.com/baronha/react-native-photo-editor#readme",
+  "homepage": "https://github.com/ahtesham-clcbws/react-native-photo-editor-minimal#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -148,5 +151,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "lib": "lib"
   }
 }

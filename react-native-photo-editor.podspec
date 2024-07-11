@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "10.0" }
-  s.source       = { :git => "https://github.com/baronha/react-native-photo-editor.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ahtesham2000/react-native-photo-editor-minimal.git", :tag => "#{s.version}" }
   s.swift_version = ['5.0', '5.1', '5.2']
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"

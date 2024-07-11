@@ -6,26 +6,26 @@
 6    <uses-sdk android:minSdkVersion="23" />
 7
 8    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-8-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@baronha/react-native-photo-editor/android/src/main/AndroidManifest.xml:5:3-78
-8-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@baronha/react-native-photo-editor/android/src/main/AndroidManifest.xml:5:20-76
+8-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@ahtesham2000/react-native-photo-editor/android/src/main/AndroidManifest.xml:5:3-78
+8-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@ahtesham2000/react-native-photo-editor/android/src/main/AndroidManifest.xml:5:20-76
 9    <uses-permission android:name="android.permission.INTERNET" />
-9-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@baronha/react-native-photo-editor/android/src/main/AndroidManifest.xml:6:3-65
-9-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@baronha/react-native-photo-editor/android/src/main/AndroidManifest.xml:6:20-62
+9-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@ahtesham2000/react-native-photo-editor/android/src/main/AndroidManifest.xml:6:3-65
+9-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@ahtesham2000/react-native-photo-editor/android/src/main/AndroidManifest.xml:6:20-62
 10
 11    <application
-11-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@baronha/react-native-photo-editor/android/src/main/AndroidManifest.xml:7:3-15:17
+11-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@ahtesham2000/react-native-photo-editor/android/src/main/AndroidManifest.xml:7:3-15:17
 12        android:allowBackup="false"
-12-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@baronha/react-native-photo-editor/android/src/main/AndroidManifest.xml:8:5-32
+12-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@ahtesham2000/react-native-photo-editor/android/src/main/AndroidManifest.xml:8:5-32
 13        android:requestLegacyExternalStorage="true"
-13-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@baronha/react-native-photo-editor/android/src/main/AndroidManifest.xml:10:5-48
+13-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@ahtesham2000/react-native-photo-editor/android/src/main/AndroidManifest.xml:10:5-48
 14        tools:replace="android:allowBackup" >
-14-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@baronha/react-native-photo-editor/android/src/main/AndroidManifest.xml:9:5-40
+14-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@ahtesham2000/react-native-photo-editor/android/src/main/AndroidManifest.xml:9:5-40
 15        <activity
-15-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@baronha/react-native-photo-editor/android/src/main/AndroidManifest.xml:12:5-14:71
+15-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@ahtesham2000/react-native-photo-editor/android/src/main/AndroidManifest.xml:12:5-14:71
 16            android:name="com.reactnativephotoeditor.activity.PhotoEditorActivity"
-16-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@baronha/react-native-photo-editor/android/src/main/AndroidManifest.xml:13:7-51
+16-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@ahtesham2000/react-native-photo-editor/android/src/main/AndroidManifest.xml:13:7-51
 17            android:configChanges="orientation|keyboardHidden|screenSize" />
-17-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@baronha/react-native-photo-editor/android/src/main/AndroidManifest.xml:14:7-68
+17-->/mnt/01D9961CD1E189D0/BWS/TTG-PhotoStorage/TTG_Photostorage/node_modules/@ahtesham2000/react-native-photo-editor/android/src/main/AndroidManifest.xml:14:7-68
 18    </application>
 19
 20</manifest>

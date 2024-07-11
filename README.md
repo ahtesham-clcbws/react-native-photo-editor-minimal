@@ -1,4 +1,4 @@
-# React Native Photo Editor (RNPE)
+## This is the fork package of [React Native Photo Editor (RNPE)](https://www.npmjs.com/package/@baronha/react-native-photo-editor)
 
 🌄 Image editor using native modules for iOS and Android. Inherit from 2 available libraries, [ZLImageEditor](https://github.com/longitachi/ZLImageEditor) (iOS) and [PhotoEditor](https://github.com/burhanrashid52/PhotoEditor) (Android)
 
@@ -14,9 +14,9 @@ This lib is for personal use, so if you customize your style or change something
 - [iOS](https://github.com/longitachi/ZLImageEditor)
 - [Android](https://github.com/burhanrashid52/PhotoEditor)
 
-> During the development of this package. I was thinking of moving it as part of [an earlier library](https://github.com/baronha/react-native-multiple-image-picker) that I finished. If the support community for this library was large enough, I would have to dismiss this idea immediately.
+> During the development of this package. I was thinking of moving it as part of [an earlier library](https://github.com/ahtesham2000/react-native-multiple-image-picker) that I finished. If the support community for this library was large enough, I would have to dismiss this idea immediately.
 
-> Previously this library used [Brightroom](https://github.com/muukii/Brightroom) as the native library for iOS. If you want to use Brightroom you can check it out [here](https://github.com/baronha/react-native-photo-editor/releases/tag/0.1.2).
+> Previously this library used [Brightroom](https://github.com/muukii/Brightroom) as the native library for iOS. If you want to use Brightroom you can check it out [here](https://github.com/ahtesham2000/react-native-photo-editor-minimal/releases/tag/0.1.2).
 
 ## Feature 🙈
 
@@ -64,12 +64,12 @@ This lib is for personal use, so if you customize your style or change something
 ## Installation
 
 ```sh
-yarn add @baronha/react-native-photo-editor
+yarn add @ahtesham2000/react-native-photo-editor-minimal
 ```
 
 ### iOS
 
-The Swift pod `@baronha/react-native-photo-editor` depends upon `SDWebImage` and `SDWebImageWebPCoder`, which do not define modules. To opt into those targets generating module maps (which is necessary to import them from Swift when building as static libraries), you may set `use_modular_headers!` globally in your Podfile, or specify `:modular_headers => true` for particular dependencies:
+The Swift pod `@ahtesham2000/react-native-photo-editor-minimal` depends upon `SDWebImage` and `SDWebImageWebPCoder`, which do not define modules. To opt into those targets generating module maps (which is necessary to import them from Swift when building as static libraries), you may set `use_modular_headers!` globally in your Podfile, or specify `:modular_headers => true` for particular dependencies:
 
 ```
 pod 'SDWebImage', :modular_headers => true
@@ -83,7 +83,7 @@ Then run ```cd ios/ && pod install```
 ## Usage
 
 ```js
-import PhotoEditor from "@baronha/react-native-photo-editor";
+import PhotoEditor from "@ahtesham2000/react-native-photo-editor-minimal";
 
 // ...
 
@@ -113,12 +113,12 @@ We can download the neutral LUT image from [lutCreator.js](https://sirserch.gith
 [Detailed documentations are available on here](https://www.notion.so/Creating-your-own-filters-LUT-d1942f2f5bcc44d88481d0a0cc4aacb3#d7bba7a891234ea48f1854b5e555366a)
 
 **IMPORTANT**
-You have to create ```LUTs.bundle``` and add all your LUT Photo(Re-name your LUT Photo follow this format: [LUT_64_FILTER_NAME](https://github.com/baronha/react-native-photo-editor/tree/master/resources/LUTs.bundle)) into ```LUTs.bundle```. Then add ```LUTs.bundle``` into ```Copy Bundle Resources```. [See detail](https://github.com/baronha/react-native-photo-editor/tree/master/example/ios)
+You have to create ```LUTs.bundle``` and add all your LUT Photo(Re-name your LUT Photo follow this format: [LUT_64_FILTER_NAME](https://github.com/ahtesham2000/react-native-photo-editor-minimal/tree/master/resources/LUTs.bundle)) into ```LUTs.bundle```. Then add ```LUTs.bundle``` into ```Copy Bundle Resources```. [See detail](https://github.com/ahtesham2000/react-native-photo-editor-minimal/tree/master/example/ios)
 
 ## Stickers 🤌
 ### Remote
 You need to pass an array of image urls to the sticker parameter in [options](#options)
-[Example](https://github.com/baronha/react-native-photo-editor/blob/dev/example/src/assets/data/stickers.json): 
+[Example](https://github.com/ahtesham2000/react-native-photo-editor-minimal/blob/dev/example/src/assets/data/stickers.json): 
 ```
 [
   "https://cdn-icons-png.flaticon.com/512/5272/5272912.png",
@@ -131,14 +131,14 @@ You need to pass an array of image urls to the sticker parameter in [options](#o
 
 #### iOS
 You have to create ```Stickers.bundle``` and add all your sticker into ```Stickers.bundle```. Then add ```Stickers.bundle``` into ```Copy Bundle Resources```.
-  [See detail](https://github.com/baronha/react-native-photo-editor/tree/master/example/ios)
+  [See detail](https://github.com/ahtesham2000/react-native-photo-editor-minimal/tree/master/example/ios)
     <br>
     <br>
 ![](resources/sticker_tutorial_ios.png)
   
 #### Android
 You have to create ```Stickers``` folder inside ```assets``` folder. Then drag or copy all sticker in to ```Sticker``` folder. 
-  [See detail](https://github.com/baronha/react-native-photo-editor/tree/master/example/android/app/src/main/assets/Stickers)
+  [See detail](https://github.com/ahtesham2000/react-native-photo-editor-minimal/tree/master/example/android/app/src/main/assets/Stickers)
   <br>
    <br>
   ![](resources/sticker_tutorial_android.png)
@@ -149,8 +149,8 @@ You have to create ```Stickers``` folder inside ```assets``` folder. Then drag o
 
 ## Performance
 
-We're trying to improve performance. If you have a better solution, please open a [issue](https://github.com/baronha/react-native-photo-editor/issues)
-or [pull request](https://github.com/baronha/react-native-photo-editor/pulls). Best regards!
+We're trying to improve performance. If you have a better solution, please open a [issue](https://github.com/ahtesham2000/react-native-photo-editor-minimal/issues)
+or [pull request](https://github.com/ahtesham2000/react-native-photo-editor-minimal/pulls). Best regards!
 
 ## Contributing
 
